@@ -99,7 +99,6 @@ unit_var = tk.StringVar(value="C")
 
 tk.Radiobutton(root, text="Celsius", variable=unit_var, value="C").pack()
 tk.Radiobutton(root, text="Fahrenheit", variable=unit_var, value="F").pack()
-
 tk.Button(root, text="Get Weather", command=get_weather, width=20).pack(pady=10)
 
 icon_label = tk.Label(root)
